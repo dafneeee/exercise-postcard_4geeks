@@ -1,0 +1,79 @@
+body {
+	background: black;
+	font-family: "Playwrite GB S", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.postcard {
+	background: white;
+	width: 600px;
+	padding: 20px;
+	margin: 100px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.postcard-header img {
+	height: 70px;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	font-size: 32px;
+}
+
+.postcard-body {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.body-left {
+	width: 50%;
+	padding-right: 10px;
+}
+
+.body-right {
+	width: 50%;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border-bottom: 1px solid #bdbdbd;
+	font-family: inherit;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 20px 0;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #ccc;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #bbb;
+}
